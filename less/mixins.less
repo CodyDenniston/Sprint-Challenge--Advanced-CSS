@@ -1,1 +1,25 @@
 // Mixins Here
+.customBtn(@width, @bgColor){
+    display: block;
+  background-color: @bgColor;
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+  width: @width;
+  height: 35px;
+  font-size: 2rem;
+  border-radius: 5px;
+  color: @btnBg-font-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.title(){
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    font-size: 5rem;
+    padding: 5px;
+    background-color: @nav-bg;
+}
